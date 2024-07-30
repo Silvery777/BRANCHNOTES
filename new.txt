@@ -1,0 +1,76 @@
+https://github.com/Saichinta98/devops/blob/main/notes%201_merged.pdf - Notes PDF
+
+
+sudo su
+sudo yum update
+git --version
+mvn --version
+java --version
+sudo systemctl start jenkins
+copy public id and port number from jenkins.io
+give user id and pw for jenkins if already created
+=======================
+sudo su
+sudo yum update
+la
+cd apache-tomcat-9.0.91/
+create job on jenkins - left hand side
+configure the job created
+cick on pipeline
+if blank in script - select pipeline script from SCM
+select hello world script
+stage 5 - change to :checkout from github
+click on pipeline syntax
+steps - checkout: checkout from version control
+SCM - Git
+repo - url from google online bookstore 
+copy the url
+branch - master 
+click on Generate pipeline script
+copy script  - remove from echo - helloworld
+paste the script
+apply and save
+====================================
+
+build now
+configure maven - click configure
+pipeline
+copy the stage 5th Line press enter and paste the script
+manage jenkins
+tools
+scroll down for maven installation
+apply and save
+go to your job tab
+configure
+pipeline script - sh 'mvn clean package'
+generate script
+copy the script
+paste in script field
+apply and save
+confire
+pipeline
+copy paste the stage
+stage second instance - give command build
+sh'mvn clean package'
+apply and save
+========================================
+sudo su
+sudo yum update
+git --version
+mvn --version
+java --version
+sudo systemctl start jenkins
+status jenkins
+copy the Public IP 
+and paste on google with 8080 port number
+tomcat installation - follow the procedure
+give the userid and PW
+pipeline
+copy the link from onlinebook store onto the pipeline script
+
+
+
+
+
+
+

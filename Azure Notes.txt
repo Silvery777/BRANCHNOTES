@@ -1,0 +1,27 @@
+Azure Virtual Desktop Resources: (AVD)
+
+1.Host Pools : Collection of session hosts 
+
+2.Session Hosts : Hosts that are running in AVD -uses windows 10 enterprise,win 11, server based OP, single(personal desktop host pool) or multiuser(Pooled Vistual desktop) session.Machines will group togetheras a One host pool.one host pool contains many users.
+
+3.Application Groups:Collection of Applications that are published to the user.They are 2 types:
+Remote App
+Desktop App
+
+applications are grouped together and provided access to the users
+
+4.Workspaces:logical containers-grouping of applications based on functions etc
+provides permissions to use VDI client to the end users.
+
+
+5.User Profiles:Managing the user profiles using user profile techniques - FsLogix
+
+6.AAD : Authorizations are provided.Access management to the new employees
+
+
+7.Networking:
+
+8.Storage
+9.Monitoring
+10.Management & Scaling
+11.Liscensing

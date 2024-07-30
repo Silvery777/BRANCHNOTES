@@ -3,14 +3,62 @@
 3.deine cloud security.Explain about the types of cloud securities
 4.define devops and architecture of devops.
 
+Git commands
 
-  309  git clone 
-  310  cd mahi
-  311  touch kiran suhanth
-  312  git status
-  313  git checkout -b padma
-  ls
-   git add kiran
-   git status
-  git commit -m "add file"
-  git push origin padma
+1.git init..........Initialized empty Git repository in C:/Users/ur/Desktop/.git/
+
+2.git config --global user.name "Silvery777" list...........attaching remote repo from github
+
+3.  git config --global user.email "goldie87_silvery@yahoo.co.in"
+
+4.git config --global --list
+ 
+5. git status
+
+6. git add . (git add (space).)
+
+7.git status
+
+8.git reset
+
+9.git commit-m "first file"
+
+10 git commit -m "first commit"
+
+11 git log
+
+12.git branch Silvery777
+
+13.git branch
+
+14.git checkout Silvery777
+
+15.ls
+
+16.git status
+
+17.git checkout master
+
+18.git push origin
+19. history
+
+20.git log - to push
+
+21.git remote add origin - paste the code from git hub repository created
+
+---------------------------
+
+git init
+
+touch file1 file2 file3
+
+ls
+
+git status
+
+git add file1
+
+git status
+
+
+
