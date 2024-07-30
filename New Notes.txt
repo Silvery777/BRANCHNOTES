@@ -1,0 +1,16 @@
+1.define cloud computing.explain the types of cloud computing.
+2.Uses of cloud computing.
+3.deine cloud security.Explain about the types of cloud securities
+4.define devops and architecture of devops.
+
+
+  309  git clone 
+  310  cd mahi
+  311  touch kiran suhanth
+  312  git status
+  313  git checkout -b padma
+  ls
+   git add kiran
+   git status
+  git commit -m "add file"
+  git push origin padma

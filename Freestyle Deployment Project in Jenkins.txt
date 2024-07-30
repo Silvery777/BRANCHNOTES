@@ -1,0 +1,38 @@
+ 1 New Item
+ 2 Name - Ok- Source Code Manage - Git
+ 3 GitHub Code - 
+ 4 Copy in Repository - Add Jenkin Code
+ 5 Name - Click OK- Select Freestyle
+ 6 Source Code Management - Git - give Repo
+ 7 Open Git Hub - Search - SaiChinta 98
+ 8 Users -Copy Code from existing available public github users Online Bookstore - Create new Fork - Create
+ 9 Copy the code
+10 Paste the code in repository
+11 check branch
+12 Git completed - Apply and save
+13 Again Build Now
+*****************************************************
+ 1 Configure
+ 2 Then Build Steps - Add Build Steps
+ 3 Invoke top level maven targets
+ 4 Maven Command # Goals Tab - clean package or clean install
+ 5 Apply and Save - Maven is completed
+ 6 Go to work Space - Open target folder - project name (onlinebookstore.war)
+ 7 Again config. for deployment
+ 8 Post build actions
+ 9 Click Add then go to dashboard
+10 click manage jenkins
+11 Got to pluggings - Available plugins - search option Deploy to container
+12 Deploy container - click install
+13 click on go back to top page - once you succeed
+14 click job
+15 click on configure
+16 Got to post build actions
+17 click on Deploy war/ear to container
+18 click on question mark button - WAR/EAR Files to container
+19 Paste it **/.war
+20 context path - Add container - Tomcat 9 - credentials for TomCat
+21 give description
+22 copy from Cat Url - tomcat application url with port number
+23 Apply and Save
+24 Again Build Now - Apply and Save

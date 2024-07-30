@@ -1,0 +1,26 @@
+    Create an instance on AWS first with t2 medium setting and security group as all traffic and customer as anywhere.
+
+    1  sudo su
+    2  sudo apt update
+    3  sudo apt upgrade
+    4  sudo apt install openjdk-11-jdk
+    5  java --version
+
+      copy the details from jenkins.io install jenkins as below
+
+    6  wget sudo wget -O /usr/share/keyrings/jenkins-keyring.asc \
+  https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key
+echo "deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc]" \
+  https://pkg.jenkins.io/debian-stable binary/ | sudo tee \
+  /etc/apt/sources.list.d/jenkins.list > /dev/null
+
+    7  sudo apt-update
+    8  sudo apt-install jenkins
+    9  sudo apt install git maven
+    10 git --version -----verify if this is installed
+    11 mvn --version -----verify if this is installed
+    12 copy the public IP from Jenkins
+    13 paste on url with port 8080
+    14 cat space ----enter password from the above url
+    15 copy the password into the url page
+    16 click on install suggested plugins
