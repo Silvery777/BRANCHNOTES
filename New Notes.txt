@@ -40,11 +40,14 @@ Git commands
 17.git checkout master
 
 18.git push origin
+
 19. history
 
 20.git log - to push
 
-21.git remote add origin - paste the code from git hub repository created
+21.git push -u --all
+
+22.git remote add origin - paste the code from git hub repository created
 
 ---------------------------
 
@@ -59,6 +62,17 @@ git status
 git add file1
 
 git status
+
+git add file2
+
+git status
+
+git add .
+
+git commit -m " First Commit "
+
+git config --global user.
+
 
 
 
